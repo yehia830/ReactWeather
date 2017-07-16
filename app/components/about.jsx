@@ -9,7 +9,7 @@ const React = require('react');
 var About = (props) => {
   return (
     <div className="text-center">
-        <h2 className="text-center">About</h2>
+        <h1 className="text-center page-title">About</h1>
             <p className="callout primary large">
               This is a weather application bulit on React while using the the Open Weather Map API.
             </p>

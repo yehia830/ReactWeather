@@ -8,6 +8,8 @@ const Examples = require('Examples');
 // load foundation-sites
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
+//app css
+require('style!css!sass!applicationStyles')
 
 
 
