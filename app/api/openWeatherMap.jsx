@@ -16,7 +16,7 @@ module.exports = {
         return res.data.main.temp;
       }
     },function () {
-      throw new Error('Unable to fetch weather');
+      throw new Error('Error: Location Not Found');
     });
   }
 }
